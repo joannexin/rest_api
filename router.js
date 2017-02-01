@@ -7,7 +7,7 @@ module.exports = (app) => {
   // create an object to keep tracking of jobs
   const jobs = {};
   let jobId = 0;
-
+  
   // get website helper function
   const getSite = (url) => {
     // increase id number and set status to 'pending'
